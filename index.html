@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <!-- parent div -->
+    <div class="parent">
+        <!-- child 1 -->
+        <div class="source" id="source">
+            <i class="fa-brands fa-twitter" draggable="true"></i>
+            <i class="fa-brands fa-facebook" draggable="true"></i>
+            <i class="fa-solid fa-check" draggable="true"></i>
+            <i class="fa-solid fa-download" draggable="true"></i>
+            <i class="fa-brands fa-github" draggable="true"></i>
+            <i class="fa-solid fa-location-dot" draggable="true"></i>
+            <i class="fa-solid fa-heart fa-beat" draggable="true"></i>
+            <i class="fa-solid fa-face-smile" draggable="true"></i>
+            <p draggable="true">Random talks</p>
+            <img src="https://www.investopedia.com/thmb/yHJ-TScXYLK0-nsquk3F7nQ3ROg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1229893385-660e28619bce4b86b26897be614e36ff.jpg" alt="pic1" draggable="true">
+            <img src="https://ca-times.brightspotcdn.com/dims4/default/f32be37/2147483647/strip/true/crop/4800x2700+0+153/resize/1200x675!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F0c%2F0f%2F8ba7f2754f18acdb2ca03d4665bd%2Fla-ca-elon-musk-0030.JPG" alt="pic2" draggable="true">
+        </div>
+
+        <!-- child 2 -->
+        <div class="target" id="target">
+
+        </div>
+    </div>
+    <button onclick="handleClick()" class="reset">Reset</button>
+    <h3 class="bottom-detail">Drag anything from Block 1 and drop to block 2</h3>
+
+    <script src="script.js"></script>
+</body>
+</html>

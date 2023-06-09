@@ -1,0 +1,57 @@
+html, body{
+    margin: 0;
+}
+
+.parent{
+    height: 65vh;
+    width: 80vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.source, .target{
+    height: 75%;
+    width: 45%;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.source > i, .target>i{
+    margin: 10px;
+}
+
+.source > p, .target>p{
+    text-align: center;
+    width: min-content;
+    background-color: antiquewhite;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.source > img, .target > img{
+    margin: 2px 5px;
+    width: 150px;
+    height: 100px;
+}
+
+.reset{
+    padding: 4px;
+    background-color: rgb(255, 186, 11);
+    border-radius: 5px;
+    margin-left: 50%;
+    font-size: large;
+    cursor: pointer;
+}
+
+.bottom-detail{
+    text-align: center;
+}
